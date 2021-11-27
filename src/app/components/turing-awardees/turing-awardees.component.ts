@@ -1,15 +1,29 @@
 import { Component, OnInit } from '@angular/core';
+import { WebServiceCallService } from 'src/app/services/web-service-call.service';
 
 @Component({
   selector: 'app-turing-awardees',
   templateUrl: './turing-awardees.component.html',
   styleUrls: ['./turing-awardees.component.css']
 })
-export class TuringAwardeesComponent implements OnInit {
+export class TuringAwardeesComponent {
 
-  constructor() { }
+  awardees: any;
+  flag: boolean = false  // For Spinner Hide-Show
 
-  ngOnInit(): void {
+  constructor(private data: WebServiceCallService) {
+
+    this.flag = true
+    this.data.getAllAwardeesData().subscribe(
+      response => {
+        this.awardees = response
+        this.flag = false
+      },
+      error => {
+        this.flag = false
+        alert(error);
+      }
+    )
   }
 
 }
