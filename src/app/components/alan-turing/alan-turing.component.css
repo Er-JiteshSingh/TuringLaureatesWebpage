@@ -1,0 +1,19 @@
+mat-grid-tile h1 {
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: turquoise;
+}
+
+mat-grid-tile h3 {
+    font-size: 1rem;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.award_img img {
+    width: 50%;
+    height: 50%;
+    margin: 200px;
+}

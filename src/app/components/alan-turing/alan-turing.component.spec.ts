@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AllanTuringComponent } from './allan-turing.component';
+import { AlanTuringComponent } from './alan-turing.component';
 
 describe('AllanTuringComponent', () => {
-  let component: AllanTuringComponent;
-  let fixture: ComponentFixture<AllanTuringComponent>;
+  let component: AlanTuringComponent;
+  let fixture: ComponentFixture<AlanTuringComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AllanTuringComponent ]
+      declarations: [ AlanTuringComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AllanTuringComponent);
+    fixture = TestBed.createComponent(AlanTuringComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

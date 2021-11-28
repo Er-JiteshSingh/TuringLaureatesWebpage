@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AllanTuringComponent } from './components/allan-turing/allan-turing.component';
+import { AlanTuringComponent } from './components/alan-turing/alan-turing.component';
 import { TuringAwardeesComponent } from './components/turing-awardees/turing-awardees.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
@@ -23,7 +23,7 @@ import { MatMenuModule } from '@angular/material/menu';
 @NgModule({
   declarations: [
     AppComponent,
-    AllanTuringComponent,
+    AlanTuringComponent,
     TuringAwardeesComponent,
     NavbarComponent,
     HomeComponent
