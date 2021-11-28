@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  award:String="assets/images/award.jpg"
+
   constructor() { }
 }

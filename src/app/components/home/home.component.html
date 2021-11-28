@@ -1,7 +1,24 @@
 <div class="grid-container">
 
-  <mat-grid-list>
+  <mat-grid-list cols="2">
+
     <mat-grid-tile>
+      <div class="award_img">
+        <img [src]="award" alt="award-image">
+      </div>
     </mat-grid-tile>
+
+    <mat-grid-tile>
+      <div>
+        <h1>A.M. Turing Award</h1>
+        <h3>
+          The ACM A. M. Turing Award is an annual prize given by the Association for Computing Machinery (ACM) for
+          contributions "of lasting and major technical importance to the computer field" . It is generally recognized
+          as the highest distinction in computer science and is known as or often referred to as "Nobel Prize of
+          Computing"
+        </h3>
+      </div>
+    </mat-grid-tile>
+
   </mat-grid-list>
 </div>
