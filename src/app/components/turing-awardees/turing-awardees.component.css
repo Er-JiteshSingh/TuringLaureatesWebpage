@@ -1,0 +1,44 @@
+mat-spinner {
+    margin: auto;
+    margin-top: 40vh;
+}
+
+mat-grid-list {
+    background-color: azure;
+}
+
+.card {
+    background-color: lightcyan;
+    max-width: 400px;
+    height: 600px;
+}
+
+mat-card-title, h3, h4 {
+    color: slateblue;
+    font-weight: bold;
+}
+
+span {
+    color: slategray;
+    font-size: 0.7rem;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+p.affiliation {
+    color: slateblue;
+    font-weight: bolder;
+
+}
+
+h4 {
+    display: inline-block;
+    padding-right: 20%;
+}
+
+.awardee_img {
+    transform: translateX(60%);
+    margin: 2rem;
+}

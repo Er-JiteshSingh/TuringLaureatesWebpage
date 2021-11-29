@@ -10,6 +10,7 @@ export class TuringAwardeesComponent {
 
   awardees: any;
   flag: boolean = false  // For Spinner Hide-Show
+  dummyImg: String = "assets/images/geoffrey.webp"
 
   constructor(private data: WebServiceCallService) {
 

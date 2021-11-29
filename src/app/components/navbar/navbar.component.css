@@ -9,6 +9,7 @@
 
 .sidenav .mat-toolbar {
   background: inherit;
+  position: sticky;
 }
 
 .mat-toolbar.mat-primary {

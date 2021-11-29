@@ -1,5 +1,43 @@
-<p>Turing-Awardees Works!</p>
-
 <mat-spinner *ngIf="flag"></mat-spinner>
 
-<h1>{{awardees | json}}</h1>
+<div class="grid-container" *ngIf="!flag">
+
+    <mat-grid-list cols="3" rowHeight="90vh">
+
+        <mat-grid-tile *ngFor="let awardee of awardees">
+
+            <mat-card class="card">
+
+                <mat-card-header>
+                    <mat-card-title>{{awardee.name}}</mat-card-title>
+                </mat-card-header>
+
+                <img mat-card-lg-image [src]="dummyImg" alt="img" class="awardee_img">
+
+                <mat-card-content>
+
+                    <h3>
+                        CITATION
+                    </h3>
+
+                    <p>
+                        {{awardee.description}}
+                    </p>
+
+                    <p class="affiliation">
+                        Affiliation : <span> {{awardee.affiliation}}</span>
+                    </p>
+
+                    <h4>
+                        Year : <span>{{awardee.year}}</span>
+                    </h4>
+
+                    <h4>
+                        Country : <span> {{awardee.country}}</span>
+                    </h4>
+
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
