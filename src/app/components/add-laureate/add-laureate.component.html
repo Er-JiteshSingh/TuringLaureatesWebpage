@@ -1,10 +1,15 @@
 <div class="grid-container">
-    <mat-grid-list cols="" rowHeight="90vh">
-        <mat-grid-tile>
-            <form #add="ngForm" (ngSubmit)="onSubmit(add)">
-                <input name="id" type="text" ngModel>
-                <button>submit</button>
-            </form>
-        </mat-grid-tile>
-    </mat-grid-list>
+  <mat-grid-list cols="" rowHeight="90vh">
+    <mat-grid-tile>
+      <form #add='ngForm' (ngSubmit)="onSubmit(add)">
+        <input type="text" name="name" placeholder="name"  class="inp" required ngModel>  <br>
+        <input type="text" name="year" placeholder="Year" class="inp" required ngModel> <br>
+        <input type="text" name="country" placeholder="country" class="inp" required ngModel> <br>
+        <input type="text" name="description" placeholder="description" class="inp" required ngModel> <br>
+        <input type="text" name="affiliation" placeholder="affiliation" class="inp" required ngModel> <br>
+        <input type="text" name="image" placeholder="image" class="inp" required ngModel> <br>
+        <button type="submit" id="register">submit</button>
+      </form>
+    </mat-grid-tile>
+  </mat-grid-list>
 </div>
