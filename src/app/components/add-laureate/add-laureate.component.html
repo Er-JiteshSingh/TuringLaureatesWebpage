@@ -1,0 +1,10 @@
+<div class="grid-container">
+    <mat-grid-list cols="" rowHeight="90vh">
+        <mat-grid-tile>
+            <form #add="ngForm" (ngSubmit)="onSubmit(add)">
+                <input name="id" type="text" ngModel>
+                <button>submit</button>
+            </form>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

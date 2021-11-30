@@ -19,6 +19,8 @@ import { HomeComponent } from './components/home/home.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import { AddLaureateComponent } from './components/add-laureate/add-laureate.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { MatMenuModule } from '@angular/material/menu';
     AlanTuringComponent,
     TuringAwardeesComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    AddLaureateComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
