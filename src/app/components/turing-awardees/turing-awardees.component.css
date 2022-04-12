@@ -8,9 +8,10 @@ mat-grid-list {
 }
 
 .card {
-    background-color: lightcyan;
+    background-color: thistle;
     max-width: 400px;
-    height: 600px;
+    min-height: 600px;
+    min-width: 400px;
 }
 
 mat-card-title, h3, h4 {

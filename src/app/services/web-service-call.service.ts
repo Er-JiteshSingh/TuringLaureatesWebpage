@@ -6,7 +6,7 @@ import {Injectable} from '@angular/core';
 })
 export class WebServiceCallService {
 
-  private baseUrl: String = "http://localhost:8080"
+  private baseUrl: String = "http://localhost:9090"
 
   constructor(private http: HttpClient) {
   }
