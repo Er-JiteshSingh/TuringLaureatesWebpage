@@ -3,8 +3,8 @@
 }
 
 .sidenav {
-  width: 150px;
-  background-color: azure;
+  width: max-content;
+  background-color: azure;;
 }
 
 .sidenav .mat-toolbar {
@@ -25,10 +25,10 @@
 }
 
 a {
-  border: 1px solid springgreen !important
+  border: 1px solid springgreen !important;
 }
 
-mat-toolbar h1{
+mat-toolbar h1 {
   color: aliceblue;
   font-size: 2rem;
   font-family: sans-serif;
